@@ -1,0 +1,18 @@
+Plug 'easymotion/vim-easymotion'
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-surround'
+Plug 'vim-scripts/ReplaceWithRegister'
+Plug 'machakann/vim-highlightedyank'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'kana/vim-textobj-entire'
+Plug 'dbakker/vim-paragraph-motion'
+
+let mapleader=" "
+inoremap jj <esc>
+
+set incsearch
+set showcmd
+set so = 10
+set ideajoin
+set ideamarks
+
