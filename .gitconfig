@@ -4,6 +4,8 @@
 [user]
 	name = wirekang
 	email = wirekang@gmail.com
+[credential]
+	helper = store
 [pull]
 	ff = only
 [filter "lfs"]
