@@ -7,6 +7,41 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'kana/vim-textobj-entire'
 Plug 'dbakker/vim-paragraph-motion'
 
+sethandler <c-2> a:ide
+sethandler <c-s-2> a:ide
+sethandler <c-6> a:ide
+sethandler <c-s-6> a:ide
+sethandler <c-;> a:ide
+sethandler <c-s-;> a:ide
+sethandler <c-a> a:ide
+sethandler <c-b> a:ide
+sethandler <c-c> a:ide
+sethandler <c-d> a:ide
+sethandler <c-e> a:ide
+sethandler <c-f> a:ide
+sethandler <c-g> a:ide
+sethandler <c-h> a:ide
+sethandler <c-i> a:ide
+sethandler <c-j> a:ide
+sethandler <c-k> a:ide
+sethandler <c-l> a:ide
+sethandler <c-m> a:ide
+sethandler <c-n> a:ide
+sethandler <c-o> a:ide
+sethandler <c-p> a:ide
+sethandler <c-q> a:ide
+sethandler <c-r> a:ide
+sethandler <c-s> a:ide
+sethandler <c-t> a:ide
+sethandler <c-u> a:ide
+sethandler <c-v> a:ide
+sethandler <c-w> a:ide
+sethandler <c-x> a:ide
+sethandler <c-y> a:ide
+sethandler <c-[> a:ide
+sethandler <c-\> a:ide
+sethandler <c-]> a:ide
+
 let mapleader=" "
 inoremap jj <esc>
 
