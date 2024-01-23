@@ -12,5 +12,7 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+export PATH=$PATH:/usr/local/go/bin
+
 export PS1="╔═══ \u \e[1;32m\w\e[0m \$(__git_ps1 '(%s)')\n"
 PROMPT_COMMAND="export PROMPT_COMMAND=echo"
