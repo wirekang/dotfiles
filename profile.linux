@@ -28,7 +28,7 @@ case ":${PATH}:" in
 esac
 
 # fnm
-if ! command -v fnm ls &> /dev/null; then
+if command -v fnm &> /dev/null; then
   eval "`fnm env`"
 fi
 
