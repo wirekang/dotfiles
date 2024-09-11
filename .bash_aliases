@@ -1,4 +1,4 @@
-alias la='ls -lA'
+alias l='ls -lA'
 
 alias ggs="git status"
 alias gga="git add"
