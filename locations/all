@@ -1,4 +1,6 @@
 .bash_aliases ~/.bash_aliases
 .ideavimrc ~/.ideavimrc
 .gitconfig ~/.gitconfig
+.gitconfig.mofl ~/.gitconfig.mofl
 .vimrc ~/.vimrc
+

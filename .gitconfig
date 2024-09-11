@@ -1,8 +1,10 @@
 [core]
 	editor = vim
 	eol = lf
+	sshCommand = "ssh -i /mnt/c/Users/dmhsk/.ssh/id_rsa.wirekang -F /dev/null"
 [user]
-	useConfigOnly = true
+	name = wirekang
+	email = wirekang@gmail.com
 [pull]
 	ff = only
 [filter "lfs"]
@@ -12,4 +14,8 @@
 	clean = git-lfs clean -- %f
 [push]
 	autoSetupRemote = true
+
+
+[includeIf "gitdir:wrk/mofl/"]
+	path = ~/.gitconfig.mofl
 
