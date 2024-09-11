@@ -1,1 +1,7 @@
+# fnm
+if ! command -v fnm ls &> /dev/null; then
+  eval "`fnm env`"
+fi
+
 source ~/.bash_aliases
+
