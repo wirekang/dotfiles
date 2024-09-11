@@ -1,2 +1,2 @@
-.profile.mingw ~/.profile
-.psqlrc "$APPDATA"/postgresql/psqlrc.conf
+profile.mingw ~/.profile
+psqlrc "$APPDATA"/postgresql/psqlrc.conf

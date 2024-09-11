@@ -1,6 +1,0 @@
-[user]
-	name = mf-hyunsoo-kang
-	email = hyunsoo.kang@mofl.ai
-[core]
-	sshCommand = "ssh -o IdentitiesOnly -i /mnt/c/Users/dmhsk/.ssh/id_rsa.mofl -F /dev/null"
-

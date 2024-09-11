@@ -1,7 +1,7 @@
 [core]
 	editor = vim
 	eol = lf
-	sshCommand = "ssh -i /mnt/c/Users/dmhsk/.ssh/id_rsa.wirekang -F /dev/null"
+	sshCommand = "ssh -o IdentitiesOnly=yes -i /mnt/c/Users/dmhsk/.ssh/id_rsa.wirekang -F /dev/null"
 [user]
 	name = wirekang
 	email = wirekang@gmail.com

@@ -1,2 +1,2 @@
-.profile.linux ~/.profile
-.psqlrc ~/.psqlrc
+profile.linux ~/.profile
+psqlrc ~/.psqlrc
