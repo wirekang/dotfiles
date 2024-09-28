@@ -15,7 +15,10 @@
 [push]
 	autoSetupRemote = true
 
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
 
 [includeIf "gitdir:wrk/mofl/"]
 	path = ~/.gitconfig.mofl
-
