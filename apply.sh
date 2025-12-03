@@ -15,17 +15,24 @@ function f() {
 	done
 }
 
+echo "all"
+f locations/all || exit 1
+
 case "$(uname -s)" in
  Linux*)
-	 f locations/all || exit 1
+	echo "linux"
 	 f locations/linux || exit 1
     ;;
  MINGW64*)
-	 f locations/all || exit 1
-	 f locations/mingw || exit 1
+	echo "mingw"
+	f locations/mingw || exit 1
     ;;
  *)
 	 echo "Unknown $(uname -s)"
     ;;
 esac
 
+if [ -e "/usr/bin/wslinfo" ]; then
+	echo "wsl"
+	f locations/wsl || exit 1
+fi;
