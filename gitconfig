@@ -1,7 +1,6 @@
 [core]
 	editor = vim
 	eol = lf
-	sshCommand = "ssh -o IdentitiesOnly=yes -i /c/Users/dmhsk/.ssh/id_rsa.wirekang -F /dev/null"
 [user]
 	name = wirekang
 	email = wirekang@gmail.com
@@ -14,11 +13,7 @@
 	clean = git-lfs clean -- %f
 [push]
 	autoSetupRemote = true
-
 [diff]
 	tool = vscode
 [difftool "vscode"]
 	cmd = code --wait --diff $LOCAL $REMOTE
-
-[includeIf "gitdir:wrk/mofl/"]
-	path = ~/.gitconfig.mofl
